@@ -2,9 +2,17 @@
     box-sizing: border-box;
     margin: 0;
 }
+/*
+color pallette
+color 1: wheat
+color 2: #CAF5B2 (green)
+color 3: #B2CAF5 (blue)
+color 4: #DEB2F5 (purplo
+*/
 
 body{
-    background-color: wheat;
+    background-color: #f5deb3;
+    font-family: sans-serif;
 }
 
 .header-container{
@@ -22,10 +30,20 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
+} 
 
 .title{
     font-family: "Sunday Morning";
     color:black;
     font-size: 40px;
 }
+
+.welcome-container{
+    margin-left: 60px;
+    font-family: sans-serif;
+}
+
+.welcome{
+    text-decoration: none;
+}
+ 
